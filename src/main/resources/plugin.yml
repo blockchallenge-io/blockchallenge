@@ -1,0 +1,5 @@
+name: BlockChallenge
+version: ${version}
+author: blockchallenge.io
+main: io.blockchallenge.BlockChallengePlugin
+api-version: 1.17

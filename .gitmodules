@@ -1,0 +1,12 @@
+[submodule "blockchallenge-item"]
+	path = blockchallenge-item
+	url = git@github.com:blockchallenge-io/blockchallenge-item.git
+[submodule "blockchallenge-world"]
+	path = blockchallenge-world
+	url = git@github.com:blockchallenge-io/blockchallenge-world.git
+[submodule "blockchallenge-base"]
+	path = blockchallenge-base
+	url = git@github.com:blockchallenge-io/blockchallenge-base.git
+[submodule "blockchallenge-actions"]
+	path = blockchallenge-actions
+	url = git@github.com:blockchallenge-io/blockchallenge-actions.git
