@@ -10,3 +10,6 @@
 [submodule "blockchallenge-actions"]
 	path = blockchallenge-actions
 	url = git@github.com:blockchallenge-io/blockchallenge-actions.git
+[submodule "blockchallenge-lang"]
+	path = blockchallenge-lang
+	url = git@github.com:blockchallenge-io/blockchallenge-lang.git

@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT")
+    implementation("org.reflections:reflections:0.9.12")
 
     implementation(project(":blockchallenge-base"))
     implementation(project(":blockchallenge-actions"))
@@ -31,6 +32,9 @@ tasks {
         dependencies { include(project(":blockchallenge-actions")) }
         dependencies { include(project(":blockchallenge-item")) }
         dependencies { include(project(":blockchallenge-world")) }
+        dependencies { include("org.reflections:reflections:0.9.12")}
+
+        relocate("org.reflections", "io.blockchallenge.lib.org.reflections")
     }
 
     processResources {
